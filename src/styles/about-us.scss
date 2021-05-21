@@ -1,0 +1,24 @@
+.about-us {
+  display: flex;
+  width: 100%;
+
+  &__title {
+    margin-bottom: 23px;
+  }
+
+  &__text {
+    margin-bottom: 42px;
+  }
+
+  &__button {
+    width: 35%;
+    margin: auto;
+  }
+
+  &__more {
+    display: flex;
+    flex-direction: column;
+    padding: 78px;
+    width: 50%;
+  }
+}

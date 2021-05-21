@@ -1,0 +1,33 @@
+.order-online {
+  &__title {
+    margin-bottom: 95px;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+  }
+
+  &__steps {
+    width: 444px;
+  }
+
+  &__img {
+    height: 110px;
+    margin-bottom: 80px;
+    transition: height 0.4s;
+    &:hover {
+      height: 150px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .order-online {
+    &__title-step {
+      height: 100px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.button {
+  min-width: 244px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: $colorDarkGray;
+  color: $colorWhite;
+  transition: color 0.4s, background-color 0.4s;
+  cursor: pointer;
+
+  &:visited {
+    border: 2px solid $colorWhite;
+  }
+
+  &:hover {
+    background-color: $colorWhite;
+    color: $colorDarkGray;
+  }
+
+  &:active {
+    border: 2px solid $colorWhite;
+  }
+
+  &__header {
+    margin-top: 50px;
+  }
+}

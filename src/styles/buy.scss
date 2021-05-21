@@ -1,0 +1,43 @@
+.buy {
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 85px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heating-oil {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    margin-bottom: 50px;
+  }
+
+  &__heating-oil-title {
+    margin-bottom: 37px;
+  }
+
+  &__heating-oil__img {
+    object-fit: cover;
+    max-width: 100%;
+    margin-bottom: 34px;
+  }
+
+  &__heating-oil__img-1 {
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+  }
+
+  &__button {
+    font-weight: normal;
+    margin: auto;
+    width: 60%;
+  }
+}

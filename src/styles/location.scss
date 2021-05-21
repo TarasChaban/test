@@ -1,0 +1,39 @@
+.location {
+  display: flex   ;
+  height: 960px;
+  margin-bottom: 154px;
+
+  &__name {
+    width: 50%;
+  }
+
+  &__title {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+
+  &__city {
+    font-size: 32px;
+    list-style-type: none;
+  }
+
+  &__line {
+    height: 1px;
+    background-color: $colorDarkGray;
+    opacity: 0.15;
+    width: 100%;
+    margin-top: 22.5px;
+    margin-bottom: 18.5px;
+  }
+
+  &__map {
+    width: 50% ;
+  }
+}
+
+@media (max-width: 1120px) {
+  .location__title {
+    font-size: 44px;
+  }
+}

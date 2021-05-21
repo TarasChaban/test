@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhelanOIL</title>
+    <link rel="icon" href="images/icon-step2.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <img
+                src="./images/Logo-WhelanOils.png"
+                class="nav__link"
+                alt="Logo-WhelanOils"
+              >
+            </li>
+            <li class="nav__item">
+              <img
+                src="./images/icon-phone.png"
+                class="nav__link"
+                alt="icon-phone"
+              >
+              <a href="tel:044 93 406 93" class="nav__link nav__link-phone">044 93 406 93</a>
+            </li>
+            <li class="nav__item">
+              <a href="#order-oil" class="nav__link">Order Oil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#commercial-oil" class="nav__link">Commercial Oil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#locations" class="nav__link">Locations</a>
+            </li>
+            <li class="nav__item">
+              <a href="#savings-plan" class="nav__link">Savings Plan</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact-us" class="nav__link">Contact Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#my-account" class="nav__link">My Account</a>
+            </li>
+            <li class="nav__item">
+              <img
+                src="./images/icon-basket.png"
+                class="nav__link nav__img"
+                alt="icon-basket"
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__page" id="order-oil">
+        <div class="container-header">
+          <form class="form">
+            <h1>Order Home Heating Oil</h1>
+            <label for="country" class="form__label">Select Country</label>
+            <select
+              class="form__select"
+              id="country"
+              name="country"
+            >
+              <option class="form__option" value="country">Choose option</option>
+              <option class="form__option" value="1">Country-1</option>
+              <option class="form__option" value="2">Country-2</option>
+              <option class="form__option" value="3">Country-3</option>
+            </select>
+            <label for="amount" class="form__label">Amount in Litres</label>
+            <select
+              class="form__select"
+              id="amount"
+              name="amount"
+            >
+              <option class="form__option" value="amount">Choose amount</option>
+              <option class="form__option" value="10">10</option>
+              <option class="form__option" value="20">20</option>
+              <option class="form__option" value="30">30</option>
+            </select>
+            <button class="button button__header">Order Oil Online
+              <img src="./images/arrow-left_orange.png" alt="image arrow">
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section__buy">
+        <div class="container">
+          <div class="buy">
+            <h2 class="buy__title">Home heating oil at the best price</h2>
+            <h5 class="buy__text">
+              Duis aute irure dolor in reprehenderit in voluptate velita
+              cillum dolore nulla pariatur.
+            </h5>
+            <div class="buy__info">
+              <div class="buy__heating-oil">
+                <img
+                  src="./images/img-heatingoil.png"
+                  class="buy__heating-oil__img"
+                  alt="image heatingoil"
+                >
+                <h3 class="buy__heating-oil-title">Home Heating Oil</h3>
+                <button class="button buy__button">Buy Home Heating Oil
+                  <img src="./images/arrow-left_orange.png" alt="image arrow">
+                </button>
+              </div>
+              <div class="buy__heating-oil" id="commercial-oil">
+                <img
+                  src="./images/img-commercialoil.png"
+                  class="buy__heating-oil__img"
+                  alt="image commercialoil"
+                >
+                <h3 class="buy__heating-oil-title">Commercial Oil</h3>
+                <button class="button buy__button">Buy Commercial Oil
+                  <img src="./images/arrow-left_orange.png" alt="image arrow">
+                </button>
+              </div>
+            </div>
+            <div class="about-us">
+              <img
+                src="./images/img-savingsplan.png"
+                class="buy__heating-oil__img-1"
+                alt="image savingsplan"
+              >
+              <div class="about-us__more" id="savings-plan">
+                <h3 class="about-us__title">Join our Savings Plan</h3>
+                <h5 class="about-us__text">
+                  Duis aute irure dolor in etta qua reprehenderit in voluptate
+                  velita esse cillum solo dolore nulla
+                </h5>
+                <button class="button about-us__button">More About Us
+                  <img src="./images/arrow-left_orange.png" alt="image arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__order-online">
+        <div class="container">
+          <div class="order-online">
+            <h2 class="order-online__title">How to Order Oil Online</h2>
+            <div class="order-online__actions">
+              <div class="order-online__steps">
+                <img
+                  src="./images/icon-step1.svg"
+                  class="order-online__img"
+                  alt="image step-1"
+                >
+                <h4 class="order-online__title-step">1 Choose the amount</h4>
+                <p>
+                  Choose the amount of oil you want along with your
+                  region to get an instant free quote.
+                </p>
+              </div>
+              <div class="order-online__steps">
+                <img
+                  src="./images/icon-step2 (1).svg"
+                  class="order-online__img"
+                  alt="image step-2"
+                >
+                <h4 class="order-online__title-step">2 Choose Delivery</h4>
+                <p>
+                  Choose between our Standard or Speedy Delivery and we’ll do the rest.
+                </p>
+              </div>
+              <div class="order-online__steps">
+                <img
+                  src="./images/icon-step3.svg"
+                  class="order-online__img"
+                  alt="image step-3"
+                >
+                <h4 class="order-online__title-step">3 Order and Pay</h4>
+                <p>
+                  Login or create your account. Enter your payment details.
+                  Confirm and complete your order.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__locations" id="locations">
+        <div class="container">
+          <div class="location">
+            <div class="location__name">
+              <h2 class="location__title">Cheap Oil Close to You</h2>
+              <ul>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Athone / Glasson
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Moate / Ballymore
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Longford
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  North Offaly
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Kildare
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Meath
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Roscommon
+                  <div class="location__line"></div>
+                </li>
+                <li class="location__city">
+                  <img src="./images/arrow-left_white.png" alt="">
+                  Westmeath
+                </li>
+              </ul>
+            </div>
+            <div class="location__map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610596.3768450028!2d-7.175801605989141!3d53.27225938560571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485dc14b458851b9%3A0xf056b82e8b66811c!2sWhelan%20Oil!5e0!3m2!1sru!2sua!4v1621559149104!5m2!1sru!2sua"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__special-deals" id="my-account">
+        <div class="container">
+          <div class="special-deals">
+            <h2 class="special-deals__title">Sign up for Special Deals</h2>
+            <h5 class="special-deals__text">Id diam vel quam elementum pulvinar etiam non. Vulputate mi sit amet mauris.</h5>
+            <form class="special-deals__form">
+              <div class="special-deals__info">
+                <label class="special-deals__label" for="name">Your Name
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="special-deals__input"
+                    required
+                  >
+                </label>
+                <label class="special-deals__label" for="email">Email Address
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="special-deals__input"
+                    required
+                  >
+                </label>
+              </div>
+              <button class="button special-deals__button">Sign Me Up
+                <img src="./images/arrow-left_orange.png" alt="image-arrow">
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contact-us">
+        <div class="container">
+          <div class="footer__up">
+            <div class="footer__left">
+              <div class="footer__info">
+                <div class="footer__menu">
+                  <span class="footer__item footer__item-head">Whelan Oils Distributors</span>
+                  <span class="footer__item">Zone A, Mullingar Business Park,</span>
+                  <span class="footer__item">Mullingar, Westmeath,</span>
+                  <span class="footer__item">Ireland, Eircode: N91 TE26</span>
+                </div>
+                <div class="footer__menu">
+                  <a href="#commercial-oil" class="footer__item">Buy Oil</a>
+                  <a href="#savings-plan" class="footer__item">Savings Plan</a>
+                  <a href="#contact-us" class="footer__item">About Us</a>
+                </div>
+                <div class="footer__menu">
+                  <a href="#" class="footer__item">Price Alerts</a>
+                  <a href="#contact-us" class="footer__item">Contact Us</a>
+                  <a href="#my-account" class="footer__item">My Account</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__right">
+              <div class="footer__contacts">
+                <a href="tel:044 93 406 93" class="footer__item footer__number">Tel. 044 93 406 93</a>
+                <div class="footer__follow">
+                  <span class="footer__item footer__follow-us">Follow Us</span>
+                  <a href="https://www.facebook.com/">
+                    <img
+                      src="./images/social-facebook.svg"
+                      class="footer__social"
+                      alt="image facebook"
+                    >
+                  </a>
+                  <a href="https://twitter.com/">
+                    <img
+                      src="./images/social-twitter.svg"
+                      class="footer__social"
+                      alt="image twitter"
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="container">
+          <div class="footer__down">
+            <span>Copyright 2020 Whelan Oils Distributors</span>
+            <div class="footer__policy">
+              <span class="footer__item">Terms & Conditions</span>
+              <span class="footer__item">Privacy Policy</span>
+              <span class="footer__item">Cookie Policy</span>
+            </div>
+            <div>
+              <span>
+                We accept all major credit and debit cards
+              </span>
+              <img
+                class="footer__cards"
+                src="./images/card-amex.svg"
+                alt="image card-amex"
+              >
+              <img
+                class="footer__cards"
+                src="./images/card-mastercard.svg"
+                alt="image card-mastercard"
+              >
+              <img
+                class="footer__cards"
+                src="./images/card-paypal.svg"
+                alt="image card-paypal"
+              >
+              <img
+                class="footer__cards"
+                src="./images/card-visa.svg"
+                alt="image card-visa"
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>

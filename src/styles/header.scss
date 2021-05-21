@@ -1,0 +1,12 @@
+.header {
+  margin-bottom: 154px;
+  &__page {
+    height: 800px;
+    background-image: url("../images/Hero-img1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    letter-spacing: -0.09px;
+  }
+}
