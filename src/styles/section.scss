@@ -3,7 +3,7 @@
 }
 
 .section__order-online {
-  margin-bottom: 112px;
+  margin-bottom: 90px;
 }
 
 .section__locations {
@@ -12,4 +12,16 @@
 
 .section__special-deals {
   margin-bottom: 140px;
+}
+
+@media (max-width: 799px) {
+  .section__special-deals {
+    margin-bottom: 100px;
+  }
+  .section__order-online {
+    margin-bottom: 71px;
+  }
+  .section__buy {
+    margin-bottom: 33px;
+  }
 }

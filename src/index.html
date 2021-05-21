@@ -21,7 +21,7 @@
                 alt="Logo-WhelanOils"
               >
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <img
                 src="./images/icon-phone.png"
                 class="nav__link"
@@ -29,30 +29,35 @@
               >
               <a href="tel:044 93 406 93" class="nav__link nav__link-phone">044 93 406 93</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#order-oil" class="nav__link">Order Oil</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#commercial-oil" class="nav__link">Commercial Oil</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#locations" class="nav__link">Locations</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#savings-plan" class="nav__link">Savings Plan</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#contact-us" class="nav__link">Contact Us</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item-not-phone">
               <a href="#my-account" class="nav__link">My Account</a>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item">
               <img
                 src="./images/icon-basket.png"
                 class="nav__link nav__img"
                 alt="icon-basket"
               >
+            </li>
+            <li class="nav__item nav__menu">
+              <div class="nav__phone"></div>
+              <div class="nav__phone"></div>
+              <div class="nav__phone"></div>
             </li>
           </ul>
         </div>
@@ -60,7 +65,7 @@
       <div class="header__page" id="order-oil">
         <div class="container-header">
           <form class="form">
-            <h1>Order Home Heating Oil</h1>
+            <h1 class="form__title">Order Home Heating Oil</h1>
             <label for="country" class="form__label">Select Country</label>
             <select
               class="form__select"
@@ -148,41 +153,46 @@
           <div class="order-online">
             <h2 class="order-online__title">How to Order Oil Online</h2>
             <div class="order-online__actions">
-              <div class="order-online__steps">
+              <div class="order-online__steps order-online__steps-1">
                 <img
                   src="./images/icon-step1.svg"
                   class="order-online__img"
                   alt="image step-1"
                 >
                 <h4 class="order-online__title-step">1 Choose the amount</h4>
-                <p>
+                <p class="order-online__text-step">
                   Choose the amount of oil you want along with your
                   region to get an instant free quote.
                 </p>
               </div>
-              <div class="order-online__steps">
+              <div class="order-online__steps order-online__steps-2">
                 <img
                   src="./images/icon-step2 (1).svg"
                   class="order-online__img"
                   alt="image step-2"
                 >
                 <h4 class="order-online__title-step">2 Choose Delivery</h4>
-                <p>
+                <p class="order-online__text-step">
                   Choose between our Standard or Speedy Delivery and we’ll do the rest.
                 </p>
               </div>
-              <div class="order-online__steps">
+              <div class="order-online__steps order-online__steps-3">
                 <img
                   src="./images/icon-step3.svg"
                   class="order-online__img"
                   alt="image step-3"
                 >
                 <h4 class="order-online__title-step">3 Order and Pay</h4>
-                <p>
+                <p class="order-online__text-step">
                   Login or create your account. Enter your payment details.
                   Confirm and complete your order.
                 </p>
               </div>
+            </div>
+            <div class="order-online__slide">
+              <div class="order-online__slide-not-active"></div>
+              <div class="order-online__slide-active"></div>
+              <div class="order-online__slide-not-active"></div>
             </div>
           </div>
         </div>
@@ -327,13 +337,14 @@
         <div class="footer__line"></div>
         <div class="container">
           <div class="footer__down">
-            <span>Copyright 2020 Whelan Oils Distributors</span>
+            <span class="footer__copyright">Copyright 2020 Whelan Oils Distributors</span>
+            <div class="footer__line footer__line-phone"></div>
             <div class="footer__policy">
               <span class="footer__item">Terms & Conditions</span>
               <span class="footer__item">Privacy Policy</span>
               <span class="footer__item">Cookie Policy</span>
             </div>
-            <div>
+            <div class="footer__credit-card">
               <span>
                 We accept all major credit and debit cards
               </span>

@@ -22,3 +22,25 @@
     width: 50%;
   }
 }
+
+@media (max-width: 799px) {
+  .about-us {
+    flex-direction: column;
+    &__more {
+      width: 100%;
+      padding: 56px;
+    }
+    &__title {
+      margin-bottom: 14px;
+      font-size: 22px;
+    }
+    &__text {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    &__button {
+      font-size: 14px;
+      height: 40px;
+    }
+  }
+}

@@ -10,3 +10,23 @@
     letter-spacing: -0.09px;
   }
 }
+
+@media (max-width: 1023px) {
+  .header {
+    &__page {
+      height: 700px;
+    }
+  }
+}
+
+@media (max-width: 799px) {
+  .header {
+    &__page {
+      background-image: url("../images/img-hero-mobile.png");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+  }
+}

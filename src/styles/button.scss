@@ -25,3 +25,13 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 799px) {
+  .button {
+    &__header {
+      color: $colorDarkGray;
+      background-color: $colorOrange;
+      margin-top: 20px;
+    }
+  }
+}

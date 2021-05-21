@@ -88,4 +88,47 @@
   &__cards {
     height: 23px;
   }
+
+  &__line-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .footer {
+    height: 609px;
+    &__up {
+      flex-direction: column-reverse;
+      height: 460px;
+    }
+    &__down {
+      margin: 40px 0;
+      flex-direction: column-reverse;
+    }
+    &__left {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    &__right {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+    &__info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__policy {
+      display: none;
+    }
+    &__line-phone {
+      display: flex;
+    }
+    &__credit-card {
+      margin: 10px;
+    }
+  }
 }

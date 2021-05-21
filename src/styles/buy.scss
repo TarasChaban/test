@@ -41,3 +41,36 @@
     width: 60%;
   }
 }
+
+@media (max-width: 799px) {
+  .buy {
+    &__title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    &__text {
+      font-size: 18px;
+      margin-bottom: 43px;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+    &__heating-oil__img {
+      margin-bottom: 19px;
+    }
+    &__heating-oil__img-1 {
+      width: 100%;
+    }
+    &__heating-oil-title {
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+    &__button {
+      font-size: 15px;
+      height: 40px;
+      margin: auto;
+      width: 60%;
+    }
+  }
+}
